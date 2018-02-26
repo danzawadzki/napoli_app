@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="400.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/9"
+            fx:controller="login.LoginController">
+    <children>
+        <Label layoutX="166.0" layoutY="369.0" text="Application status:">
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Label>
+        <Label fx:id="statusLabel" contentDisplay="RIGHT" layoutX="272.0" layoutY="369.0" prefHeight="15.0"
+               prefWidth="64.0" textFill="#28c600">
+            <font>
+                <Font size="12.0"/>
+            </font>
+        </Label>
+        <TextField fx:id="emailInput" layoutX="25.0" layoutY="170.0" prefHeight="30.0" prefWidth="300.0"
+                   promptText="type email address.."/>
+        <TextField fx:id="passwordInput" layoutX="25.0" layoutY="235.0" prefHeight="30.0" prefWidth="300.0"
+                   promptText="type password..."/>
+        <Label layoutX="25.0" layoutY="144.0" text="Email Address:"/>
+        <Label layoutX="25.0" layoutY="211.0" text="Password:"/>
+        <Button fx:id="loginButton" layoutX="197.0" layoutY="277.0" mnemonicParsing="false" onAction="#Login"
+                prefHeight="27.0" prefWidth="128.0" text="Login"/>
+        <Label contentDisplay="CENTER" layoutX="110.0" layoutY="56.0" text="NAPOLI">
+            <font>
+                <Font name="Helvetica Neue" size="36.0"/>
+            </font>
+        </Label>
+        <Label fx:id="messageLabel" layoutX="25.0" layoutY="282.0" prefHeight="17.0" prefWidth="160.0"/>
+    </children>
+</AnchorPane>

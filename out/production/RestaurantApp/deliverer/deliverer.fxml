@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns:fx="http://javafx.com/fxml/1" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity"
+            minWidth="-Infinity"
+            prefHeight="700.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/9">
+    <children>
+        <TabPane prefHeight="700.0" prefWidth="900.0" tabClosingPolicy="UNAVAILABLE" AnchorPane.bottomAnchor="0.0"
+                 AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <tabs>
+                <Tab text="Orders">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <Label layoutX="26.0" layoutY="72.0" prefHeight="44.0" prefWidth="850.0"
+                                       text="Widok powinien pozwalać zarządzać (wprowadzać, usuwać, modyfikować) zamówienia otrzymane telefonicznie oraz poprzez stronę www."
+                                       AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="70.0"/>
+                                <Label layoutX="26.0" layoutY="37.0" text="Orders (online &amp; phone)"
+                                       AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="40.0">
+                                    <font>
+                                        <Font size="24.0"/>
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Transport">
+                    <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <Label prefHeight="44.0" prefWidth="850.0"
+                                       text="Widok powinien pozwalać aktualizować ewidencje pojazdu służbowego z którego dostawca korzysta podczas pracy."
+                                       AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="70.0"/>
+                                <Label text="Transport" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="40.0">
+                                    <font>
+                                        <Font size="24.0"/>
+                                    </font>
+                                </Label>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>
